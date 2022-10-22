@@ -1,6 +1,6 @@
 import math
 
-#Домашнее задание №1. Осипенко Костя. Для проверки уберите комментирование
+#Lesson 1. Homework 1. Osypenko Kostiantn. To check task please uncomment needed section
 
 
 # print('Hello world')
