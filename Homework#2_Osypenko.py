@@ -1,7 +1,7 @@
 import math
 
 
-# Домашнє завдання №2. Осипенко Костянтин. Для перевірки розкоментуйте потрібну частину
+# Lesson 1. Homework 2. Osypenko Kostiantn. To check task please uncomment needed section
 
 # 1. Construct an integer from the string "123"
 
