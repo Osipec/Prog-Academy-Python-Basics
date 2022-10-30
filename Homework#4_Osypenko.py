@@ -3,7 +3,6 @@
 # 1. Find out the porch, floor and number by the flat number
 flat = int(input('Enter the flat number\t'))
 flats_on_floor, floors, porches = 4, 9, 4
-
 porch = (flat - 1) // (flats_on_floor * floors) + 1
 floor = ((flat - 1) % (flats_on_floor * floors)) // flats_on_floor + 1
 flat_num = (flat - 1) % flats_on_floor + 1
