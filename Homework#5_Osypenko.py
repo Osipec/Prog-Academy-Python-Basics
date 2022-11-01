@@ -15,11 +15,11 @@ else:
 
 # 2. Palindrome
 
-
 palindrome = input('Enter any number to check if it\'s palindrome\t')
 print(palindrome == palindrome[::-1] and "Palindrome" or 'Not a palindrome')
 
 # 3. Point in circle with given radius
+
 import math
 
 radius = int(input('Enter circle radius\t'))
