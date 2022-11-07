@@ -80,15 +80,12 @@ while True:
     else:
         print('Clock size must be odd number')
 
-stars = size
-for i in range(size // 2):
-    print(f'{" "*i}{"*"*stars}{" "*i}')
-    stars-=2
+counter = 0
+for i in range(size, 0, -2):
+    print(f'{" " * counter}{"*" * i}')
+    counter += 1
 
-print(f'{" "*(size//2)}{"*"*stars}{" "*(size//2)}')
-
-counter = size//2 - 1
-for i in range(size // 2):
-    stars += 2
-    print(f'{" " * counter}{"*" * stars}{" " * counter}')
-    counter-=1
+counter -=1
+for j in range(3, size+1, 2):
+    counter -= 1
+    print(f'{" " * counter}{"*" * j}')
