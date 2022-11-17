@@ -14,20 +14,20 @@
 # print(square(6,5))
 
 # 3. Find element in list
-# import random
-# int_list = [random.randint(1,101) for _ in range(100)]
-# to_find = input('Enter element to find it\'s index:  ')
-# while not to_find.isdigit():
-#     if not to_find.isdigit():
-#         print('Try again: ')
-#         to_find = input('Enter element to find it\'s index:  ')
-#
-# def index_finder(list_of_int: list, element: str):
-#     if int(element) in list_of_int:
-#         return f'Element index is {int_list.index(int(element))}'
-#     else:
-#         return 'No such element'
-# print(index_finder(int_list, to_find))
+# import random                                                                   
+# def index_finder(list_of_int: list, element: str):                              
+#     if int(element) in list_of_int:                                             
+#         return f'Element index is {int_list.index(int(element))}'               
+#     else:                                                                       
+#         return 'No such element'                                                
+#                                                                                 
+# int_list = [random.randint(1,101) for _ in range(100)]                          
+# to_find = input('Enter element to find it\'s index:  ')                         
+# while not to_find.isdigit():                                                    
+#         print('Try again: ')                                                    
+#         to_find = input('Enter element to find it\'s index:  ')                 
+#                                                                                 
+# print(index_finder(int_list, to_find))                                          
 
 # 4. Number of words
 # def words_counter(string: str) -> int:
