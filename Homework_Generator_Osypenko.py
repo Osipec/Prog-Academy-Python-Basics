@@ -2,12 +2,13 @@
 
 # 1. Make generator function
 
-def gen_func(number: int, n: int):
-    while number < 550:
+def gen_func(number: int, n: int, limit: int):
+    while number < limit:
         yield number
         number *= n
 
-gen = gen_func(1,2)
+
+gen = gen_func(1, 2, 550)
 for i in gen:
     print(i)
 
